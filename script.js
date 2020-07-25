@@ -11,8 +11,6 @@ $(document).ready(function() {
 
     // save the value in localStorage as time
     localStorage.setItem(time, JSON.stringify(value));
- 
-    
   });
 
   function hourUpdater() {
