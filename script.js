@@ -23,8 +23,8 @@ $(document).ready(function() {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
       console.log("block hour:", blockHour);
 
-
       var id = $(this).attr("id");
+      
       // load any saved data from localStorage
       var savedData = JSON.parse(localStorage.getItem(id));
 
