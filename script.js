@@ -32,13 +32,9 @@ $(document).ready(function() {
         $(this).children(".description").val(savedData);
       }
 
-      // check if we've moved past this time
-      // if the current hour is greater than the block hour
-      // then add class "past"
-      // if they are equal
-      // then remove class "past" and add class "present"
-      // else
-      // remove class "past", remove class "present", add class "future"
+      // check if we've moved past this time if the current hour is greater than the block hour then add class "past"
+      // if they are equal then remove class "past" and add class "present"
+      // else remove class "past", remove class "present", add class "future"
 
       if (currentHour > blockHour) {
         $(this).addClass('past');
@@ -55,14 +51,12 @@ $(document).ready(function() {
 
   // set up interval to check if current time needs to be updated
   // which means execute hourUpdater function every 15 seconds
-
   function ticker(){
     setTimeout(ticker, 1000*15);
     console.log("tickerrun");
     hourUpdater();
   }
   ticker();
-
 
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));

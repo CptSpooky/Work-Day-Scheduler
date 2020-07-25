@@ -4,10 +4,9 @@
 Create a work day scheduler with color coded timeblocks and the ability to save events.
 
 ## Description
-[App Link](https://cptspooky.github.io/Code-Quiz/)
+[App Link](https://cptspooky.github.io/Work-Day-Scheduler/)
 
-![image desktop](https://user-images.githubusercontent.com/66426144/87885031-b1bc8200-c9e0-11ea-870b-d2f79f814fec.png)
-![image mobile](https://media.discordapp.net/attachments/301370206721277952/734513479137886338/Screenshot_20200719-165409.png?width=772&height=1372)
+![image desktop](https://user-images.githubusercontent.com/66426144/88464582-0604ad80-ce8a-11ea-9c32-de78248793a5.png)
 
 ### Variables
 To start I knew I had to start referencing my html elements so I could visually validate my javascript. I called the element classes and Ids, storing them in variables I could later reference. I also created several variables that would be used for iteration. 
