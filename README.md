@@ -24,7 +24,12 @@ The function ticker is essentially a timer that executes the hourUpdater functio
 ![image timer](https://user-images.githubusercontent.com/66426144/88465058-c344d480-ce8d-11ea-91dd-3787c9ce3f1e.png)
 
 
-
+## Technologies Used
+* Javascript
+* JQuery
+* HTML
+* CSS
+* Bootstrap
 
 
 ## Credits
