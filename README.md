@@ -31,6 +31,9 @@ The function ticker is essentially a timer that executes the hourUpdater functio
 * CSS
 * Bootstrap
 
+## License
+MIT
+
 
 ## Credits
 [Mozilla Developer](https://developer.mozilla.org/)
